@@ -96,7 +96,7 @@ function MovieList(props) {
     RData = Data
   return (
     < div >
-      <h2>Movies</h2>
+      <h2>Movies List</h2>
       <Search placeholder="start entering movie name" onSearch={value => handleSearch(value)} style={{ width: '500px', marginRight: '200px' }} enterButton />
       <Button onClick={() => show('fav')} >show Favorites list</Button>
       <Button onClick={() => show('wl')}>Show WishList</Button>
